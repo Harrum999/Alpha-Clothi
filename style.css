@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(229,218,197);
+}
+::selection {
+    background-color: black;
+    color: white;
+}
+.menu-bar {
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20vw;
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vw;
+    border-bottom: 1px solid black;
+    width: 95vw;
+    margin-left: 2vw;
+    padding-bottom: 1vw;
+}
+#Logo {
+    margin-left: 2vw;
+    font-family: "Nectar";
+}
+.menu-bar  {
+    margin-right: 2vw;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+.menu-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.menu-bar h1 {
+    display: inline;
+    font-family: "Matter";
+    gap: 1.2vw;
+    font-size: 1vw;
+}
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+}
+.menu-bar:hover {
+    width: 35vw;
+}
+.menu-bar i:hover {
+    opacity: 0;
+}
+.menu-bar i {
+    position: relative;
+}
+.master-heading {
+    display: flex;
+    align-items: center;
+    font-family: "Vilane";
+    line-height: 6vw;
+    margin-top: 4vw;
+    margin-left: 4vw;
+}
+.master-heading h1 {
+    font-size: 10vw;
+}
+.secondry-heading {
+    display: flex;
+    align-items: center;
+    font-family: "Vilane";
+    font-size: 7vw;
+    margin-left: 4.4vw;
+}
+.image-panel img {
+    position: absolute;
+    left: 72vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+    top: 8vw;
+    width: 26vw;
+}
+.qoute h3{
+    margin-left: 6vw;
+    margin-top: -2vw;
+    font-family: "Matter";
+}
+.quote-second {
+    height: 20vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote-second h3 {
+    font-family: "Matter";
+    margin-right: -21vw;
+    margin-bottom: 13vw;
+}
+.paragraph-box {
+    width: 45vw;
+    height: 35vh;
+    background-color: rgb(159, 187, 149);
+    border-top-left-radius: 6vw;
+    border-bottom-right-radius: 6vw;
+    margin-left: 4vw;
+    position: absolute;
+    top: 30vw;
+    overflow: hidden;
+}
+#text-orientation {
+    margin-left: 1vw;
+    font-size: 4.8vw;
+    margin-top: 16.3vw;
+    font-family: "Matter";
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    font-family: voga;
+    line-height: 3.9vw;
+}
+.paragraph-second  h3{
+    font-family: "Matter";
+    position: absolute;
+    bottom: 4.3vw;
+    left: 14vw;
+}
+.qoute-paragraph h3 {
+    font-family: "Matter";
+    position: absolute;
+    top: 33vw;
+    left: 53.6vw;
+    font-size: 1.2vw;
+}
+.box-paragraph {
+    height: 35.6vh;
+    width: 20vw;
+    background-color:  rgb(141, 135, 122);
+    position: absolute;
+    bottom: 0.7vw;
+    z-index: -1;
+    left: 50.5vw;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+}
+.best-seller {
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.best-seller h1 {
+    font-family: "camaufalge";
+    font-size: 3vw;
+    font-weight: bolder;
+}
+.best-seller-2 {
+    width: 100vw;
+    height: 0.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.best-seller-2 h3 {
+    font-family: "Matter";
+    font-weight: bolder;
+    color: black;
+}
+.polo-panel-1 {
+    height: 50vw;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#polo-1 {
+    border-top-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+#polo-2 {
+    width: 24.4vw;
+    border-bottom-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+#polo-3 {
+    width: 23.2vw;
+    border-bottom-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+}
+.polo-panel-1 img{
+    width: 25vw;
+}
+.Details {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Details h2 {
+    margin-right: 2vw;
+    font-family: "Astro";
+    padding-left: 3vw;
+    margin-top: -9vw;
+}
+.Details h3 {
+    margin-top: -3vw;
+    font-family: "Matter";
+    font-size: 2vw;
+    line-height: 3vw;
+    padding-left: 2vw;
+}
+.Product-1 {
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Product-1 img {
+    width: 23vw;
+}
+#polo-shirt-2 {
+    width: 23.5vw;
+}
+#polo-shirt-3 {
+    width: 21vw;
+}
+#polo-shirt-4 {
+    width: 25.4vw;
+}
+.Product-2 {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Our-product {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Our-product h1 {
+    margin-top: 15vw;
+    font-family: "Matter";
+    position: absolute;
+}
+#polo-shirt {
+    border-top-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+#polo-shirt-2 {
+    border-bottom-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+#polo-shirt-3 {
+    border-top-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+#polo-shirt-4 {
+    border-bottom-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+.para-polo-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -16vw;
+}
+.box-text-panel {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cover-panel {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Offer-panel {
+    overflow: hidden;
+    width: 80vw;
+    height: 29 vw;
+    background-color: red;
+}
+.Offer-panel img {
+    width: 27vw;
+    position: relative;
+    left: 54%;
+    top: -3vw;
+}
